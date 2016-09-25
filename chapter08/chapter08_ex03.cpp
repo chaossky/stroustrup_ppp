@@ -8,9 +8,9 @@ using namespace std;
 inline void keep_window_open(){char ch;cin>>ch;}
 
 void print(vector<int> v, string s){
-    for(int x=0;x<v.size()-1;++x){
+    for(int x=0;x<=v.size()-1;++x){
         cout << v[x];
-        if(x!=v.size()-2){
+        if(x!=v.size()-1){
             cout << ", ";
         }
         else{
